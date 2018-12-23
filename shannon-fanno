@@ -1,0 +1,7 @@
+# Shannon-fanno
+Shannon fanno is a lossless data compression algorithm . This is an implementation of shannon-fanno on c
+
+The input is in the form of a string and output is table showing shannon-fanno encoding of each unique word in the 
+input string. 'frequency.c' is calculating the frequency of each word in the input string and storing all the frequencies 
+in an array. Probability of each unique word is calculated by dividing the frequency of a particular word by the sum total 
+of all frequencies. 'shannon-fanno()' produces the encoding.
